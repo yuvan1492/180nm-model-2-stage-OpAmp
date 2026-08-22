@@ -1,0 +1,27 @@
+# LTspice Simulation Files - Git Ignore Rules
+
+# Raw simulation data files (large, regenerated on each run)
+*.raw
+*.op.raw
+*.log
+*.net
+*.db
+
+# Plot/panel settings (optional - can be committed if useful)
+*.plt
+
+# Backup files
+*.asc.bak
+*.asy.bak
+*.lib.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
